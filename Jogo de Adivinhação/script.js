@@ -66,6 +66,6 @@ function reiniciarJogo () {
     tentativasRestantes = tentativasMax;
     document.getElementById("resultado").textContent = "Resultado: ";
     document.getElementById("dica").textContent = "";
-    document.getElementById("chancesRestantes").textContent = "Chaces restantes: 10";
+    document.getElementById("chancesRestantes").textContent = "Chances restantes: 10";
     return;
 }
