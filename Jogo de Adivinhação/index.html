@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <header>
+        <h1>Jogo de Adivinhação</h1>
+        <h3>Olá jogador, Adivinhação possui uma mecânica simples, geraremos um número entre 1 a 100 e você terá que adivinhar o número correto para ganhar com um total de 10 tentativas.</h3>
+        <p>Também daremos dicas se o número é maior ou menor que seu número da vez. O número é resetado sempre que a página é recarregada. Divirta-se!</p>
+    </header>
+<body>
+    <main>
+<!--receber numero-->
+    <section id="palpiteCSS">
+        <label for="numeroJogador">Insira seu palpite: </label>
+        <input id="numeroJogador" type="number">
+        <button onclick="sistemaAdivinhacao()">Chutar</button>
+    </section>
+<!--informar numero-->
+    <section id="resultadoCSS">
+        <p id="resultado">Resultado: </p>
+        <p id="dica"></p>
+        <p id="chancesRestantes">Chances restantes: 10</p>
+    </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,54 @@
+* {
+    padding: = 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+    box-shadow: 1px 1px 10px black;
+    padding: 15px;
+    background-color: rgb(24, 219, 219);
+    color: rgb(78, 31, 122);
+}
+
+h3 {
+    margin: 30px 20px 20px 55px;
+    height: 30px;
+    width: 900px;
+    box-shadow: 1px 1px 10px black;
+    padding: 20px;
+    background-color: rgb(180, 195, 212);
+    text-align: center;
+}
+
+header p {
+    margin: 10px;
+    width: 600px;
+    box-shadow: 1px 1px 10px;
+    padding: 10px;
+    background-color: rgb(245, 196, 255);
+    margin-left: 55px;
+}
+
+
+#palpiteCSS {
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 1px 10px;
+    margin: 10px;
+    width: 600px;
+    margin-left: 55px;
+    background-color: rgb(102, 93, 185);
+}
+
+#resultadoCSS {
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 1px 10px;
+    margin: 10px;
+    width: 600px;
+    margin-left: 55px;
+    background-color: rgb(166, 224, 228);
+}
